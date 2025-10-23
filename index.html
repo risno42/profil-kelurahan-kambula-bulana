@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelurahan Kambula-Bulana - Website Resmi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="data/logo_kelurahan.png" alt="Logo Kelurahan Kambula-Bulana" class="logo">
+                    <span>Kel. Kambula-Bulana</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#beranda">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#geografi">Geografi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#peta"> Peta Lokasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pemerintahan">Pemerintahan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lembaga">Kelembagaan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kontak">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Beranda/Ringkasan -->
+    <section id="beranda" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Selamat Datang di Kelurahan Kambula-Bulana</h1>
+                    <p class="lead mb-4">Mari bersama membangun kelurahan yang lebih baik, sejahtera, dan harmonis.</p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="data/logo_kelurahan.png" alt="Logo Kelurahan Kambula-Bulana" class="img-fluid main-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Geografi & Demografi -->
+    <section id="geografi" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5"><i class="fas fa-map-marked-alt me-2"></i>Geografi & Demografi</h2>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-info text-white">
+                            <h4><i class="fas fa-mountain me-2"></i>Data Geografis</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p><strong>Luas Wilayah:</strong> 2,75 KM²</p>
+                                    <p><strong>Topografi:</strong> Dataran rendah, Pesisir, Berbukit dan Bergelombang</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>Batas Wilayah:</h5>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fas fa-arrow-up text-primary me-2"></i>Utara: Kelurahan Pasarwajo</li>
+                                        <li><i class="fas fa-arrow-down text-success me-2"></i>Selatan: Desa Banabungi</li>
+                                        <li><i class="fas fa-arrow-right text-warning me-2"></i>Timur: Teluk Pasarwajo</li>
+                                        <li><i class="fas fa-arrow-left text-danger me-2"></i>Barat: Desa Lapodi (Hutan Lindung)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-warning text-dark">
+                            <h4><i class="fas fa-users me-2"></i>Data Demografis</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row text-center">
+                                <div class="col-md-4 mb-3">
+                                    <div class="stat-card">
+                                        <h3 class="text-primary">2.095</h3>
+                                        <p>Total Penduduk</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="stat-card">
+                                        <h3 class="text-info">1.038</h3>
+                                        <p>Laki-laki</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="stat-card">
+                                        <h3 class="text-success">1.057</h3>
+                                        <p>Perempuan</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="stat-card">
+                                        <h3 class="text-warning">553</h3>
+                                        <p>Kepala Keluarga (KK)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Peta Lokasi -->
+    <section id="peta" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center mb-5"><i class="fas fa-map me-2"></i>Peta Lokasi</h2>
+            
+            <div class="card">
+                <div class="card-body p-0">
+                    <div class="map-container">
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.4262563017273!2d122.8427405743326!3d-5.503554594476385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da40e511f613f27%3A0xca09ba773e9b2a7a!2sKantor%20Lurah%20Kambula-bulana!5e0!3m2!1sid!2sid!4v1761089916264!5m2!1sid!2sid" 
+                        style="border:0; width: 100%; height: 400px;" 
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pemerintahan & Kelembagaan -->
+    <section id="pemerintahan" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5"><i class="fas fa-landmark me-2"></i>Pemerintahan & Kelembagaan</h2>
+            
+            <!-- Struktur Organisasi -->
+            <div class="mb-5">
+                <h3 class="text-center mb-4"><i class="fas fa-sitemap me-2"></i>Struktur Organisasi</h3>
+                <div class="text-center">
+                    <img src="data/struktur-organisasi-kelurahan.png" alt="Struktur Organisasi Kelurahan Kambula-Bulana" class="img-fluid struktur-img">
+                </div>
+            </div>
+            
+            <!-- Lurah dan Sekretaris -->
+            <div class="row mb-5">
+                <div class="col-md-6 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-header bg-primary text-white">
+                            <h4>Lurah</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="data/foto-lurah.jpg" alt="Foto Lurah" class="rounded-circle mb-3 staff-photo">
+                            <h5 class="card-title">Fardyana Fanny, S.Si</h5>
+                            <p class="card-text">NIP. 19820319 201407 2 002</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-header bg-success text-white">
+                            <h4>Sekretaris Lurah</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="data/foto-sekretaris.jpg" alt="Foto Sekretaris Lurah" class="rounded-circle mb-3 staff-photo">
+                            <h5 class="card-title">Wa Ode Mas Indrawaty, S.IP</h5>
+                            <p class="card-text">NIP. 19741103 201212 2 001</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Kepala Seksi -->
+            <div class="mb-5">
+                <h3 class="text-center mb-4"><i class="fas fa-user-tie me-2"></i>Kepala Seksi (KASI)</h3>
+                
+                <div class="d-flex justify-content-center flex-wrap gap-4">
+                    <div class="card text-center h-100" style="width: 350px;">
+                        <div class="card-header bg-info text-white">
+                            <h5>KASI Pemerintahan & Pelayanan Umum</h5>
+                        </div>
+                        <div class="card-body">
+                            <img src="data/foto-kasi-pemerintahan.jpg" alt="Foto Kasi Pemerintahan & Pelayanan Umum" class="rounded-circle mb-3 staff-photo">
+                            <h5 class="card-title">Mukmina Djapara, S.IP</h5>
+                            <p class="card-text">NIP. 19700519 201212 2 003</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card text-center h-100" style="width: 350px;">
+                        <div class="card-header bg-danger text-white">
+                            <h5>KASI Ketenteraman & Ketertiban</h5>
+                        </div>
+                        <div class="card-body">
+                            <img src="data/foto-kasi-ketentraman.jpg" alt="Foto Kasi Ketentraman & Ketertiban" class="rounded-circle mb-3 staff-photo">
+                            <h5 class="card-title">La Dimi, S.IP</h5>
+                            <p class="card-text">NIP. 19691231 201212 1 005</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ketua RT/RW -->
+            <div class="mb-5">
+                <h3 class="text-center mb-4"><i class="fas fa-users me-2"></i>Ketua RT/RW</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <img src="data/foto-rt-rw/ketua-1.jpg" alt="Herniati" class="rounded-circle mb-3 rt-photo">
+                                <h5 class="card-title">Herniati</h5>
+                                <p class="card-text">Ketua RW 01</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <img src="data/foto-rt-rw/ketua-2.jpg" alt="Wa Aca" class="rounded-circle mb-3 rt-photo">
+                                <h5 class="card-title">Wa Aca</h5>
+                                <p class="card-text">Ketua RW 02</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <img src="data/foto-rt-rw/ketua-3.jpg" alt="Suliati" class="rounded-circle mb-3 rt-photo">
+                                <h5 class="card-title">Suliati</h5>
+                                <p class="card-text">Ketua RW 03</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <img src="data/foto-rt-rw/ketua-4.jpg" alt="Jaruma" class="rounded-circle mb-3 rt-photo">
+                                <h5 class="card-title">Jaruma</h5>
+                                <p class="card-text">Ketua RW 04</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <img src="data/foto-rt-rw/ketua-5.jpg" alt="Muhamad Lestaluhu" class="rounded-circle mb-3 rt-photo">
+                                <h5 class="card-title">Muhamad Lestaluhu</h5>
+                                <p class="card-text">Ketua RW 05</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <img src="data/foto-rt-rw/ketua-6.jpg" alt="Hasrun, S.IP" class="rounded-circle mb-3 rt-photo">
+                                <h5 class="card-title">Hasrun, S.IP</h5>
+                                <p class="card-text">Ketua RW 06</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <img src="data/foto-rt-rw/ketua-7.jpg" alt="La Imran Siolimbona" class="rounded-circle mb-3 rt-photo">
+                                <h5 class="card-title">La Imran Siolimbona</h5>
+                                <p class="card-text">Ketua RW 07</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <img src="data/foto-rt-rw/ketua-8.jpg" alt="Majida" class="rounded-circle mb-3 rt-photo">
+                                <h5 class="card-title">Majida</h5>
+                                <p class="card-text">Ketua RW 08</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <img src="data/foto-rt-rw/ketua-9.jpg" alt="Amiruddin" class="rounded-circle mb-3 rt-photo">
+                                <h5 class="card-title">Amiruddin</h5>
+                                <p class="card-text">Ketua RW 09</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Lembaga Masyarakat -->
+    <section id="lembaga" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center mb-5"><i class="fas fa-handshake me-2"></i>Lembaga Masyarakat</h2>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-header bg-success text-white">
+                            <h4><i class="fas fa-female me-2"></i>PKK</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ketua: Husna Hasrin</h5>
+                            <p class="card-text">Pemberdayaan Kesejahteraan Keluarga (PKK) berperan aktif dalam meningkatkan kualitas hidup keluarga di Kelurahan Kambula-Bulana.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary">Bakti Sosial</span>
+                                <span class="badge bg-info">Kesehatan Keluarga</span>
+                                <span class="badge bg-warning">Keagamaan</span>
+                                <span class="badge bg-success">Olahraga & Seni</span>
+                                <span class="badge bg-secondary">Arisan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-header bg-info text-white">
+                            <h4><i class="fas fa-users me-2"></i>LPM</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ketua: Hery, S.IP</h5>
+                            <p class="card-text">Lembaga Pemberdayaan Masyarakat (LPM) menjadi wadah partisipasi masyarakat dalam perencanaan dan pelaksanaan pembangunan.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-info">Pemberdayaan Masyarakat</span>
+                                <span class="badge bg-primary">Ekonomi</span>
+                                <span class="badge bg-warning">Sosial & Budaya</span>
+                                <span class="badge bg-black">Olahraga & Kesenian</span>
+                                <span class="badge bg-danger">Kesehatan</span>
+                                <span class="badge bg-secondary">Pendidikan</span>
+                                <span class="badge bg-success">Kamtibmas</span>
+                                <span class="badge bg-warning">Keagamaan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-header bg-warning text-dark">
+                            <h4><i class="fas fa-hands-helping me-2"></i>Karang Taruna</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ketua: Hasrun, S.IP</h5>
+                            <p class="card-text">Karang Taruna menjadi wadah pengembangan generasi muda melalui berbagai kegiatan positif dan produktif.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-success">Kepemudaan</span>
+                                <span class="badge bg-info">Kreativitas</span>
+                                <span class="badge bg-primary">Bakti Sosial</span>
+                                <span class="badge bg-secondary">Keagamaan</span>
+                                <span class="badge bg-warning">Olahraga & Seni</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Potensi & Prasarana -->
+    <section id="potensi" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5"><i class="fas fa-chart-line me-2"></i>Potensi & Prasarana</h2>
+            
+            <!-- Tingkat Pendidikan -->
+            <div class="row mb-5">
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary text-white">
+                            <h4><i class="fas fa-graduation-cap me-2"></i>Tingkat Pendidikan Penduduk</h4>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="pendidikanChart" width="400" height="300"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mata Pencaharian -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-success text-white">
+                            <h4><i class="fas fa-briefcase me-2"></i>Mata Pencaharian Pokok</h4>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="pekerjaanChart" width="400" height="300"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sarana Pendidikan -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header bg-info text-white">
+                            <h4><i class="fas fa-school me-2"></i>Sarana Pendidikan</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3 mb-3">
+                                    <div class="text-center">
+                                        <i class="fas fa-school fa-3x text-primary mb-2"></i>
+                                        <h5>SDN 15 Buton</h5>
+                                        <p>Jln. Laode Ana</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="text-center">
+                                        <i class="fas fa-school fa-3x text-success mb-2"></i>
+                                        <h5>SDN 1 Buton</h5>
+                                        <p>Jln. Ki Hajar Dewantara</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="text-center">
+                                        <i class="fas fa-school fa-3x text-success mb-2"></i>
+                                        <h5>SD Swasta Islam Terpadu Khairul Ummah</h5>
+                                        <p>Jln. 12 Meter</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="text-center">
+                                        <i class="fas fa-school fa-3x text-warning mb-2"></i>
+                                        <h5>SMPN 1 Buton</h5>
+                                        <p>Jln. Protokol</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sarana Kesehatan -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header bg-warning text-dark">
+                            <h4><i class="fas fa-hospital me-2"></i>Sarana Kesehatan</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="text-center">
+                                        <i class="fas fa-plus-square fa-3x text-success mb-2"></i>
+                                        <h5>Posyandu Balita Kemiri </h5>
+                                        <p>Jl. Protokol</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="text-center">
+                                        <i class="fas fa-plus-square fa-3x text-info mb-2"></i>
+                                        <h5>Posyandu Kumala</h5>
+                                        <p>Jl. Protokol</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sarana Ibadah -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header bg-danger text-white">
+                            <h4><i class="fas fa-pray me-2"></i>Sarana Ibadah</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3 mb-3">
+                                    <div class="text-center">
+                                        <i class="fas fa-mosque fa-3x text-primary mb-2"></i>
+                                        <h5>Masjid Raya Nurul Yaqin</h5>
+                                        <p>Jl. Protokol</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="text-center">
+                                        <i class="fas fa-mosque fa-3x text-success mb-2"></i>
+                                        <h5>Masjid Nurul Ikhlas Wakatobi</h5>
+                                        <p>Jl. Protokol</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="text-center">
+                                        <i class="fas fa-mosque fa-3x text-info mb-2"></i>
+                                        <h5>Masjid Nabawi</h5>
+                                        <p>Jl. Kihajar Dewantara</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="text-center">
+                                        <i class="fas fa-church fa-3x text-warning mb-2"></i>
+                                        <h5>Gereja Stella Maris</h5>
+                                        <p>Jl. Protokol</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak & Alamat -->
+    <section id="kontak" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center mb-5"><i class="fas fa-address-book me-2"></i>Kontak & Alamat</h2>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white text-center">
+                            <h4 class="mb-0">Informasi Kontak</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row text-center">
+                                <div class="col-md-6 mb-4">
+                                    <div class="contact-item">
+                                        <i class="fas fa-map-marker-alt fa-2x text-primary mb-3"></i>
+                                        <h5>Alamat Kantor</h5>
+                                        <p>Jl. Protokol, Kelurahan Kambula-Bulana</p>
+                                        <p>Kecamatan Pasarwajo, Kabupaten Buton</p>
+                                        <p>Provinsi Sulawesi Tenggara</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="contact-item">
+                                        <i class="fas fa-phone-alt fa-2x text-success mb-3"></i>
+                                        <h5>Telepon</h5>
+                                        <p>+62 812-3456-7890</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="contact-item">
+                                        <i class="fas fa-envelope fa-2x text-warning mb-3"></i>
+                                        <h5>Email</h5>
+                                        <p>kel.kambulabulana@pasarwajo.go.id</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="contact-item">
+                                        <i class="fas fa-clock fa-2x text-info mb-3"></i>
+                                        <h5>Jam Operasional</h5>
+                                        <p>Senin - Jumat</p>
+                                        <p>08.00 - 16.00 WITA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="data/logo_umb.png" alt="Logo Kelurahan Kambula-Bulana">
+                    <span>Mahasiswa KKN UM Buton Angkatan XXVII Tahun 2025</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#beranda">Beranda</a>
+                    <a href="#geografi">Geografi</a>
+                    <a href="#peta">Peta</a>
+                    <a href="#pemerintahan">Pemerintahan</a>
+                    <a href="#lembaga">Kelembagaan</a>
+                    <a href="#kontak">Kontak</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kelurahan Kambula-Bulana. Semua Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
